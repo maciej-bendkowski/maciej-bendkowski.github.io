@@ -1,0 +1,29 @@
+body { font-family: Lato, sans-serif; }
+.wrapper {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.title {
+  font-family: Montserrat, Open sans, sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 20px;
+}
+  @media screen and (max-width: 500px) {
+    .title { font-size: 2.85em; margin: 10px; }}
+h1 { font-family: Montserrat; font-size: 1.65em; }
+.photo { width: 200px; float: left; margin-right: 10px; }
+  @media screen and (max-width: 500px) {
+    .photo { float: none; margin: auto; }}
+img { width: 100%; }
+.publicons { display: flex; justify-content: space-between; }
+.icon { vertical-align: top; width: 1em; }
+.clear { clear: both; }
+a { color: #028; text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul { padding-inline-start: 20px; }
+ul li {  padding-bottom: 3px; }
+small { color: #777; }
